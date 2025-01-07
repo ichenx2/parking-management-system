@@ -53,4 +53,4 @@ This state-chart diagram illustrates the state transitions for `Vehicle` objects
 3. **Payment Complete**: The parking fee has been calculated and paid, and the vehicle is ready to leave the parking lot.
 4. **Final State**: The vehicle exits the parking lot.
 
-![State-chart Diagram](images/state_chart_diagram.png)
+![State-chart Diagram](images/state-chart-diagram.png)
