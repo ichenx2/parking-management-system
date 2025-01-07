@@ -22,7 +22,7 @@ This system manages parking operations by providing functionalities such as trac
 
 ## 2. Use Case Diagram
 
-![Use Case Diagram](images/use_case_diagram.png)
+![Use Case Diagram](images/UC.png)
 
 ### 2.1 Core Use Case
 
@@ -30,19 +30,19 @@ Use Case – **Park**: Describes the user parking process.
 
 ## 3. Activity Diagram
 
-![Activity Diagram](images/activity_diagram.png)
+![Activity Diagram](images/activity-diagram.png)
 
 ## 4. Use Case Description
 
-![Use Case Description](images/use_case_description.png)
+![Use Case Description](images/UCD.png)
 
 ## 5. Class Diagram
 
-![Class Diagram](images/class_diagram.png)
+![Class Diagram](images/class-diagram.png)
 
 ## 6. Sequence Diagram
 
-![Sequence Diagram](images/sequence_diagram.png)
+![Sequence Diagram](images/sequence-diagram.png)
 
 ## 7. State-chart Diagram
 
