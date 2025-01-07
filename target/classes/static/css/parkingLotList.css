@@ -1,0 +1,114 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    gap: 50px;
+    overflow: hidden; 
+}
+
+h2 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 800px;
+    height: 550px;
+    border: 2px solid #cdcefd;
+    overflow: hidden; 
+}
+
+.container.parking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    padding: 20px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+    max-height: 400px;
+    overflow: hidden; 
+}
+
+.table-container {
+    width: 100%;
+    max-height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.styled-table {
+    width: 100%;
+    font-size: 18px;
+    border-collapse: collapse;
+    text-align: left;
+    border: 2px solid #cdcefd;
+    table-layout: fixed; 
+    box-sizing: border-box; 
+}
+
+.styled-table thead {
+    position: sticky;
+    top: 0;
+    background-color: #4c4dab;
+    color: #ffffff;
+    z-index: 1;
+    scrollbar-gutter: stable;
+}
+
+.styled-table thead tr {
+    display: table;
+    width: 100%; 
+    table-layout: fixed;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+.styled-table tbody {
+    display: block;
+    max-height: 300px; 
+    overflow-y: auto; 
+    width: calc(100% - 1px); 
+    scrollbar-gutter: stable;
+}
+
+.styled-table tbody tr {
+    display: table;
+    width: 100%; 
+    table-layout: fixed;
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #4c4dab;
+}
