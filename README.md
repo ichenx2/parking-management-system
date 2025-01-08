@@ -54,3 +54,7 @@ This state-chart diagram illustrates the state transitions for `Vehicle` objects
 4. **Final State**: The vehicle exits the parking lot.
 
 ![State-chart Diagram](images/state-chart-diagram.png)
+
+## 8. Contact
+
+For questions or feedback, feel free to reach out via GitHub issues or email me at alice111403535\@g.ncu.edu.tw .
